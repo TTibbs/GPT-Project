@@ -6,7 +6,7 @@ function callGPTAPI() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer 6PAZmHMuWfYLwCUm2R1vT3BlbkFJzBwNVR2zzwSYG59vNVDA"
+      "Authorization": "Bearer "
     },
     body: JSON.stringify({
       prompt: prompt,
