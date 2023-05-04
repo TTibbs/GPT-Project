@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/gptlogo.png" alt="logo" />
+        <div class="nav">
+          <h1>ChatGPT Project</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <textarea name="prompt-area" id="prompt" cols="40" rows="10"></textarea>
+        <button onclick="callGPTAPI()" class="send-btn">Send Message</button>
+        <p id="result"></p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>Check out my other projects on GitHub & follow me on Twitter.</h2>
+        <div class="social-links">
+          <a href="https://github.com/TTibbs">
+            <img
+              class="github-logo"
+              src="assets/icons8-github-30.png"
+              alt="github account link"
+          /></a>
+          <a href="https://twitter.com/TTibbs_">
+            <img
+              class="twitter-logo"
+              src="assets/icons-twitter-icon.png"
+              alt="twitter account link"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
